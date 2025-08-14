@@ -39,3 +39,15 @@ age_desc: Age category description (e.g., "18 and more")
 relation: Relation of respondent (Self, Parent, etc.)
 
 Class/ASD: Final classification (1 = ASD, 0 = No ASD)
+
+# ⚙️ Tech Stack
+
+Language: Python 3.x
+
+Libraries:
+
+pandas, numpy → Data processing
+
+matplotlib, seaborn → Visualization
+
+scikit-learn → ML model building and evaluation
