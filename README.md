@@ -88,22 +88,15 @@ Precision, Recall, F1-score
 
 ROC-AUC curve
 
+# 📌 Conclusion – Autism Prediction Model Comparison
+
+# From the results:
 
 | Model               | Accuracy | Precision | Recall | F1 Score |
 | ------------------- | -------- | --------- | ------ | -------- |
 | Logistic Regression | 0.87     | 0.83      | 0.80   | 0.81     |
 | Random Forest       | 0.85     | 0.80      | 0.76   | 0.78     |
 | XGBoost             | 0.80     | 0.72      | 0.71   | 0.71     |
-
-
-# 📌 Conclusion – Autism Prediction Model Comparison
-
-# From the results:
-
-Model	Accuracy	Precision	Recall	F1 Score
-Logistic Regression	0.8750	0.83	0.80	0.81
-Random Forest	0.8562	0.80	0.76	0.78
-XGBoost	0.8063	0.72	0.71	0.71
 
 # Key Insights:
 
