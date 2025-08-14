@@ -42,9 +42,9 @@ Class/ASD: Final classification (1 = ASD, 0 = No ASD)
 
 # ⚙️ Tech Stack
 
-Language: Python 3.x
+# Language: Python 3.x
 
-Libraries:
+# Libraries:
 
 pandas, numpy → Data processing
 
@@ -54,9 +54,9 @@ scikit-learn → ML model building and evaluation
 
 # 🛠 Workflow
 
-Data Loading
+# Data Loading
 
-Data Cleaning
+# Data Cleaning
 
 Handle missing values (? in ethnicity, relation)
 
@@ -64,7 +64,7 @@ Encode categorical variables (Label Encoding / One-Hot Encoding)
 
 Normalize numeric values if needed
 
-EDA (Exploratory Data Analysis)
+# EDA (Exploratory Data Analysis)
 
 Distribution plots for AQ-10 scores
 
@@ -72,7 +72,7 @@ Gender-wise ASD count
 
 Correlation heatmap for numeric features
 
-Model Building
+# Model Building
 
 Logistic Regression
 
@@ -80,7 +80,7 @@ Random Forest
 
 XGBoost
 
-Evaluation Metrics
+# Evaluation Metrics
 
 Accuracy
 
