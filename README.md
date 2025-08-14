@@ -87,3 +87,37 @@ Accuracy
 Precision, Recall, F1-score
 
 ROC-AUC curve
+
+
+| Model               | Accuracy | Precision | Recall | F1 Score |
+| ------------------- | -------- | --------- | ------ | -------- |
+| Logistic Regression | 0.87     | 0.83      | 0.80   | 0.81     |
+| Random Forest       | 0.85     | 0.80      | 0.76   | 0.78     |
+| XGBoost             | 0.80     | 0.72      | 0.71   | 0.71     |
+
+
+# 📌 Conclusion – Autism Prediction Model Comparison
+
+# From the results:
+
+Model	Accuracy	Precision	Recall	F1 Score
+Logistic Regression	0.8750	0.83	0.80	0.81
+Random Forest	0.8562	0.80	0.76	0.78
+XGBoost	0.8063	0.72	0.71	0.71
+
+# Key Insights:
+
+Logistic Regression performed best overall, achieving the highest accuracy, precision, recall, and F1-score among the three models.
+
+Random Forest was close in accuracy but showed slightly weaker recall, meaning it missed more positive ASD cases compared to Logistic Regression.
+
+XGBoost underperformed in this dataset, with noticeably lower recall and F1-score, suggesting it was less effective at correctly identifying ASD cases.
+
+# Final Recommendation:
+For this dataset, Logistic Regression is the preferred model because:
+
+It strikes the best balance between precision and recall.
+
+It has the highest F1-score, meaning it’s more reliable for both detecting positive cases and avoiding false positives.
+
+If recall (catching as many ASD cases as possible) is critical, Logistic Regression is still the top choice, but further tuning of Random Forest might help improve recall without sacrificing too much precision.
