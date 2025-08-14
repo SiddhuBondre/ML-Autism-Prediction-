@@ -51,3 +51,39 @@ pandas, numpy → Data processing
 matplotlib, seaborn → Visualization
 
 scikit-learn → ML model building and evaluation
+
+# 🛠 Workflow
+
+Data Loading
+
+Data Cleaning
+
+Handle missing values (? in ethnicity, relation)
+
+Encode categorical variables (Label Encoding / One-Hot Encoding)
+
+Normalize numeric values if needed
+
+EDA (Exploratory Data Analysis)
+
+Distribution plots for AQ-10 scores
+
+Gender-wise ASD count
+
+Correlation heatmap for numeric features
+
+Model Building
+
+Logistic Regression
+
+Random Forest
+
+XGBoost
+
+Evaluation Metrics
+
+Accuracy
+
+Precision, Recall, F1-score
+
+ROC-AUC curve
